@@ -4,11 +4,11 @@
   "description": "Custom Bootstrap build",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CodeScience/Mattstrap"
+    "url": "https://github.com/MattTurnure/Crossfit-PR-Weight-Calculator.gitgit push heroku master"
   },
   "keywords": [
     "Bootstrap",
@@ -37,5 +37,8 @@
   },
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
