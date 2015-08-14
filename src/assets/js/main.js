@@ -6,6 +6,8 @@
         results = doc.getElementById('results'),
         html    = doc.createDocumentFragment();
 
+    console.log('Get it.');
+
     function getPR(e) {
         var list = document.createElement('ul');
         e.preventDefault();
