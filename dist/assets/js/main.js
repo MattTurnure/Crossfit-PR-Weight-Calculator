@@ -15,8 +15,6 @@
         } else {
             console.log('You must enter a number');
         }
-
-        prInput.select();
     }
 
     function isNumber(num) {
@@ -48,10 +46,6 @@
 
     function convert(percentage, val) {
         return (val * percentage * 1000000) / 100000000;
-    }
-
-    function inputFocus() {
-        prInput.select();
     }
 
     prForm.addEventListener('submit', getPR, false);
